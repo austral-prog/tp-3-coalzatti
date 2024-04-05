@@ -1,7 +1,7 @@
 def check_vowels():
-    name= input()
-    print(f"Contiene a: {("a" in name.lower())}")
-    print(f"Contiene e: {("e" in name.lower())}")
-    print(f"Contiene i: {("i" in name.lower())}")
-    print(f"Contiene o: {("o" in name.lower())}")
-    print(f"Contiene u: {("u" in name.lower())}")
+    name= input("Ingrese un nombre:")
+    print("Contiene a:" , "a" in name.lower())
+    print("Contiene e:" , "e" in name.lower())
+    print("Contiene i:" , "i" in name.lower())
+    print("Contiene o:" , "o" in name.lower())
+    print("Contiene u:" , "u" in name.lower())
