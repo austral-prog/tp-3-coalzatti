@@ -5,4 +5,4 @@ def slice_simple():
     print(texto[0:8].lower())
     
   
-slice_simple()
+
